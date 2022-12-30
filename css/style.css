@@ -1,0 +1,222 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 32px;
+    font-weight: 400;
+}
+
+* {
+    box-sizing:border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    height: 84px;
+    position: fixed;
+    background: #007765;
+    z-index: 10;
+}
+
+.menu {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.logo {
+    margin: 20px 0 19px;
+}
+
+nav {
+    margin-left: 502px;
+}
+
+.container__head {
+    display: flex;
+}
+
+.section-first {
+    padding-top: 84px;
+    text-align: center;
+    align-items: center;
+}
+
+.background-first {
+    background-image: url("../img/image.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.container__first {
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 72px;
+    font-weight: 500;
+    color: #FFFFFF;
+    -webkit-text-stroke: 2px black
+}
+
+h2 {
+    color: #007765;
+    font-weight: 500;
+    font-size: 64px;
+    text-align: center;
+    margin: 0 auto 16px auto;
+}
+.section-two {
+    text-align: left;
+    padding: 48px 0 92px 0;
+}
+
+.text {
+    margin: 0 auto;
+    line-height: 38px;
+}
+
+.section-three {
+    text-align: center;
+}
+
+.background-second {
+    background-image: url("../img/image2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.container__second {
+    padding: 128px 108px 127px 108px;
+}
+
+span {
+    font-size: 48px;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-style: italic;
+    line-height: 56px;
+}
+
+.section-four {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    padding: 48px 0 92px 0;
+}
+
+.logo-text {
+    margin-bottom: 40px;
+}
+
+.logo-img {
+    float: left;
+    margin-right: 48px;
+}
+
+.team {
+    background: #EEEEEE;
+    padding-top: 48px;
+    padding-bottom: 94px;
+}
+
+.team img{
+    width: 168px;
+    height: 168px;
+}
+
+.name {
+    color: #007765;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.post {
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.line {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.member {
+    width: 350px;
+    height: 283px;
+    display: contents;
+}
+
+figure {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+}
+
+.footer {
+    font-size: 18px;
+    font-weight: 400;
+    height: 176px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.background-third {
+    background: #333333;
+}
+
+.rights {
+    padding: 48px 339px 64px 340px;
+    line-height: 21px;
+}
+
+/* Responsive */
+
+/* Large: 992px - 1199px */
+@media (max-width: 1199px) {
+    .container {
+        max-width: 1189px;
+    }
+}
+
+/* Medium: 768px - 991px */
+@media (max-width: 991px) {
+    .container {
+        max-width: 881px;
+    }
+}
+
+/* Small: 576px - 767px */
+@media (max-width: 767px) {
+    .container {
+        max-width: 657px;
+    }
+}
+
+/* Extra small: 0px (320px) - 575px */
+@media (max-width: 575px) {
+    .container {
+        padding: 0 15px;
+    }
+}
